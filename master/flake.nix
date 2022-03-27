@@ -11,6 +11,7 @@
   inputs.src-basic2d-master.ref   = "refs/heads/master";
   inputs.src-basic2d-master.owner = "nim-lang";
   inputs.src-basic2d-master.repo  = "basic2d";
+  inputs.src-basic2d-master.dir   = "";
   inputs.src-basic2d-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
