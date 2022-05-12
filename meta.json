@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/nim-lang/basic2d",
   "refs": [
-    "fatal: unable to access 'https://github.com/nim-lang/basic2d/': SSL connection timeout",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "basic2d",
+      "version": "0.1.0",
+      "author": "Dominik Picheta",
+      "desc": "Deprecated module from stdlib.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.17.2",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.17.2"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
